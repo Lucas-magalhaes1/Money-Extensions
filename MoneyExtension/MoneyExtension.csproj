@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
 
     <PackageId>DecimalToIntegerConverter</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <License>MIT</License>
     <Authors>Lucas Magalhães</Authors>
     <PackageDescription>Library for converting decimal values to integers with precision handling.</PackageDescription>
