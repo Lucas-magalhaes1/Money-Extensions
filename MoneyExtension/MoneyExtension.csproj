@@ -4,6 +4,24 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <PackageId>DecimalToIntegerConverter</PackageId>
+    <Version>1.0.0</Version>
+    <License>MIT</License>
+    <Authors>Lucas Magalhães</Authors>
+    <PackageDescription>Library for converting decimal values to integers with precision handling.</PackageDescription>
+    <Description>A simple and efficient extension for converting decimal numbers to integer values.</Description>
+    <RepositoryUrl>https://github.com/Lucas-magalhaes1/Money-Extensions</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/Lucas-magalhaes1/Money-Extensions</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>Conversion.png</PackageIcon>
+    <PackageTags>decimal;integer;conversion;utility;extensions</PackageTags>
+    <Title>Decimal to Integer Converter</Title>
+    <Summary>Provides an easy way to convert decimal values to integers using C# extensions.</Summary>
   </PropertyGroup>
+
+   <ItemGroup>
+    <None Include="..\Media\Conversion.png" Pack="true" PackagePath="\"/>
+  </ItemGroup>
 
 </Project>
