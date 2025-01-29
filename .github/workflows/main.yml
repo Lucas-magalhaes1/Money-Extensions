@@ -18,9 +18,6 @@ jobs:
         with:
           dotnet-version: 6.0.x
       
-      - name: Restaurar dependências
-        run: dotnet restore
-
       - name: Compilar projeto
         run: dotnet build --configuration Release
 
